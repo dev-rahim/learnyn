@@ -1,17 +1,19 @@
 import React from 'react';
 import { useState, useEffect } from 'react'
 import { Row } from 'react-bootstrap'
+import useCourses from '../../hooks/useCourses';
 import ServicesCard from '../ServicesCard/ServicesCard';
 import './PopularCourses.css'
 const PopularCourses = () => {
-    const [courses, setCourses] = useState([])
-    useEffect(() => {
-        fetch('/coursesData.json')
-            .then(res => res.json())
-            .then(data => setCourses(data))
-    }, [])
+    // const [courses, setCourses] = useState([])
+    // useEffect(() => {
+    //     fetch('/coursesData.json')
+    //         .then(res => res.json())
+    //         .then(data => setCourses(data))
+    // }, [])
+    const [courses] = useCourses()
     return (
-        <div>
+        <div className='mt-5'>
             <div className="popular-Courses container">
                 <div className="d-flex flex-column align-items-center">
                     <h2 ><span className='fw-light'>Our Popular</span> Courses</h2>

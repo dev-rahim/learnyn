@@ -5,6 +5,7 @@ import background from '../../img/1.jpg'
 import background1 from '../../img/bg7.jpg'
 import Button from 'react-bootstrap/Button'
 import PopularCourses from '../PopularCourses/PopularCourses';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -29,7 +30,9 @@ const Home = () => {
                     <h1 className='fs-1 fw-light mb-3'>Trusted by Over <strong>6000+</strong> Students</h1>
                     <p>We have a fully qualified and very well educated teaching staff, continuous student counseling, and a very effective and enthusiastic student support staff.
                     </p>
-                    <Button variant='' className='mt-2 bnt-get-started py-3 px-5 rounded-5' >Get Started</Button>
+                    <Link to='/courses'>
+                        <Button variant='' className='mt-2 bnt-get-started py-3 px-5 rounded-5' >Get Started</Button>
+                    </Link>
                 </div>
             </div>
             <PopularCourses />

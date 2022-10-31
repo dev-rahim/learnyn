@@ -1,5 +1,6 @@
 .price {
     width: 80px;
+    margin-bottom: 10px;
     text-align: center;
     border: 1px solid palevioletred;
 }
@@ -14,4 +15,10 @@
 
 .card-footer {
     background-color: white;
+}
+
+.Rating {
+    color: #c2d685;
+    font-size: smaller;
+    display: flex;
 }
