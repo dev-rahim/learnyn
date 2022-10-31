@@ -1,0 +1,17 @@
+.price {
+    width: 80px;
+    text-align: center;
+    border: 1px solid palevioletred;
+}
+
+.servicesCard small {
+    color: #c2d685;
+}
+
+.servicesCard:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card-footer {
+    background-color: white;
+}

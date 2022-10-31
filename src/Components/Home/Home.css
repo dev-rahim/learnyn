@@ -1,0 +1,26 @@
+.Trusted {
+    padding: 100px 0;
+    max-height: 1261px;
+    background-image: url('https://livewp.site/wp/md/scrate/wp-content/uploads/sites/10/2017/10/bg7.jpg?id=2455');
+}
+
+.trusted-content {
+    margin: 0 auto;
+}
+
+.trusted-content p {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.bnt-get-started {
+    background-color: #a0ce4e;
+    font-size: 1.1em;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.bnt-get-started:hover {
+    background-color: aliceblue;
+    color: #a0ce4e;
+}

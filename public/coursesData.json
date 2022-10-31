@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "courseName": "Biology Course",
+        "trainer": "Steve",
+        "trainerImg": "https://tinyurl.com/y2evrcr5",
+        "subject": "Biology",
+        "totalSeat": 52,
+        "totalLesson": 99,
+        "price": 34.99,
+        "courseThumbnail": "https://tinyurl.com/58zz22bh",
+        "rating": 4.2
+    },
+    {
+        "id": 2,
+        "courseName": "History Course",
+        "trainer": "Steve",
+        "trainerImg": "https://tinyurl.com/y2evrcr5",
+        "subject": "History",
+        "totalSeat": 60,
+        "totalLesson": 45,
+        "price": 60,
+        "courseThumbnail": "https://tinyurl.com/4sw7rnnx",
+        "rating": 5
+    },
+    {
+        "id": 3,
+        "courseName": "Intermediate English",
+        "trainer": "Steve",
+        "trainerImg": "https://tinyurl.com/y2evrcr5",
+        "subject": "Languages",
+        "totalSeat": 60,
+        "totalLesson": 45,
+        "price": 65,
+        "courseThumbnail": "https://tinyurl.com/ymp5yyb6",
+        "rating": 3.9
+    },
+    {
+        "id": 4,
+        "courseName": "Macroeconomy",
+        "trainer": "Steve",
+        "trainerImg": "https://tinyurl.com/y2evrcr5",
+        "subject": "Economy",
+        "totalSeat": 60,
+        "totalLesson": 45,
+        "price": 50,
+        "courseThumbnail": "https://tinyurl.com/yc2f6yr5",
+        "rating": 4.6
+    },
+    {
+        "id": 5,
+        "courseName": "English Basic",
+        "trainer": "Steve",
+        "trainerImg": "https://tinyurl.com/y2evrcr5",
+        "subject": "Languages",
+        "totalSeat": 60,
+        "totalLesson": 45,
+        "price": 55,
+        "courseThumbnail": "https://tinyurl.com/4c5d23ma",
+        "rating": 5
+    },
+    {
+        "id": 6,
+        "courseName": "Algebra Course",
+        "trainer": "Steve",
+        "trainerImg": "https://tinyurl.com/y2evrcr5",
+        "subject": "Math",
+        "totalSeat": 60,
+        "totalLesson": 35,
+        "price": 32,
+        "courseThumbnail": "https://tinyurl.com/52nmbyu4",
+        "rating": 4.5
+    },
+    {
+        "id": 7,
+        "courseName": "Live Drawing",
+        "trainer": "Steve",
+        "trainerImg": "https://tinyurl.com/y2evrcr5",
+        "subject": "Design",
+        "totalSeat": 60,
+        "totalLesson": 45,
+        "price": 35,
+        "courseThumbnail": "https://tinyurl.com/mwkaxsp9",
+        "rating": 4
+    },
+    {
+        "id": 8,
+        "courseName": "Geometry Course",
+        "trainer": "Steve",
+        "trainerImg": "https://tinyurl.com/y2evrcr5",
+        "subject": "Geometry, Math",
+        "totalSeat": 45,
+        "totalLesson": 60,
+        "price": 29.99,
+        "courseThumbnail": "https://tinyurl.com/39mh3xts",
+        "rating": 3.5
+    }
+]

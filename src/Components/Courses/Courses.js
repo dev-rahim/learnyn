@@ -3,7 +3,6 @@ import './Courses.css'
 const Courses = () => {
     return (
         <div>
-            <h3>Courses</h3>
         </div>
     );
 };
