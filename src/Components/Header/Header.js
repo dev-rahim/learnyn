@@ -6,7 +6,7 @@ import { Link, NavLink } from 'react-router-dom'
 
 const Header = () => {
     return (
-        <div>
+        <div className='mb-5'>
             <Navbar bg="light">
                 <Container className='d-flex'>
                     <Link to='/home' className=''>
@@ -18,7 +18,7 @@ const Header = () => {
                     </Link>
                     <div className=''>
                         <Nav className="ms-auto fw-semibold header-menu">
-                            <NavLink  className='nav-link' to="/home">Home</NavLink>
+                            <NavLink className='nav-link' to="/home">Home</NavLink>
                             <NavLink className='nav-link' to="/about">About Us</NavLink>
                             <NavLink className='nav-link' to="/courses">Courses</NavLink>
                             <NavLink className='nav-link' to="/contacts">Contacts</NavLink>
